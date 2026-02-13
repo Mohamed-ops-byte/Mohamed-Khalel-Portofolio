@@ -11,6 +11,7 @@ const projects = [
       'تنظيم الفهرسة والإعارات والمتابعة الذكية للمقتنيات مع لوحة تحكم سهلة للموظفين.',
     stack: ['React', 'Laravel', 'REST', 'Dashboards'],
     image: `${imageBase}/photo-1507842217343-583bb7270b66?${imageParams}`,
+    link: '#',
   },
   {
     title: 'نظام حجز عقارات ',
@@ -18,6 +19,7 @@ const projects = [
       'حجوزات العقارات مع خرائط تفاعلية، تقويمات توفر، وتجربة مناسبة لعملاء .',
     stack: ['React', 'Maps', 'Calendar', 'Payments'],
     image: `${imageBase}/photo-1560518883-ce09059eeffa?${imageParams}`,
+    link: '#',
   },
   {
     title: 'نظام إدارة عيادة',
@@ -25,6 +27,7 @@ const projects = [
       'إدارة المواعيد والملفات الطبية والفوترة في تجربة موحدة للأطباء والاستقبال.',
     stack: ['React', 'Laravel', 'Auth', 'Reports'],
     image: `${imageBase}/photo-1504813184591-01572f98c85f?${imageParams}`,
+    link: '#',
   },
   {
     title: 'E-commerce Admin Panel',
@@ -32,6 +35,7 @@ const projects = [
       'لوحة تحكم للتجارة الالكترونية مع إدارة المنتجات والمخزون والطلبات بشكل لحظي.',
     stack: ['React', 'Node', 'Analytics', 'RBAC'],
     image: `${imageBase}/photo-1519389950473-47ba0277781c?${imageParams}`,
+    link: '#',
   },
   {
     title: 'Booking System',
@@ -39,6 +43,7 @@ const projects = [
       'نظام حجوزات متعدد الخدمات مع تدفقات دفع، إشعارات، وتقارير تشغيلية.',
     stack: ['React', 'Laravel', 'Payments', 'Notifications'],
     image: `${imageBase}/photo-1504384308090-c894fdcc538d?${imageParams}`,
+    link: '#',
   },
   {
     title: 'tourguide website',
@@ -46,6 +51,7 @@ const projects = [
       'واجهة سياحية ملهمة تعرض البرامج والجولات مع تجربة مرئية مريحة للمسافرين.',
     stack: ['React', 'CMS', 'SEO', 'UX'],
     image: `${imageBase}/photo-1469474968028-56623f02e42e?${imageParams}`,
+    link: '#',
   },
 ]
 
@@ -128,6 +134,11 @@ function App() {
                     loading="lazy"
                     decoding="async"
                   />
+                  <div className="project-overlay">
+                    <a className="project-cta" href={project.link}>
+                      View project
+                    </a>
+                  </div>
                 </div>
                 <div className="project-header">
                   <h3>{project.title}</h3>

@@ -42,9 +42,7 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: var(--font-body);
-  background: radial-gradient(circle at top, rgba(255, 180, 84, 0.08), transparent 45%),
-    radial-gradient(circle at 10% 20%, rgba(84, 181, 255, 0.12), transparent 50%),
-    var(--bg);
+  background: var(--bg);
   color: var(--text);
 }
 

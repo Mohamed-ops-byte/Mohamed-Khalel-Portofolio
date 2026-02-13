@@ -608,6 +608,24 @@ main {
     backdrop-filter: none;
     box-shadow: 0 10px 24px color-mix(in srgb, #050608 45%, transparent);
   }
+
+  .page::before,
+  .page::after {
+    content: none;
+  }
+
+  .hero-name,
+  .portrait-ring,
+  .portrait-image,
+  .project-card::before,
+  .project-card::after,
+  .project-media::after {
+    animation: none;
+  }
+
+  .portrait-core {
+    box-shadow: 0 12px 22px color-mix(in srgb, var(--accent) 12%, transparent);
+  }
 }
 
 @media (max-width: 720px) {

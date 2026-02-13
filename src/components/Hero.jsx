@@ -1,4 +1,9 @@
-import portraitImage from '../assets/1.webp'
+import portrait1024 from '../assets/1.webp'
+import portrait768 from '../assets/1-768.webp'
+import portrait480 from '../assets/1-480.webp'
+import portrait1024Avif from '../assets/1-1024.avif'
+import portrait768Avif from '../assets/1-768.avif'
+import portrait480Avif from '../assets/1-480.avif'
 
 const heroStats = [
   { label: 'Years Experience', value: '6+' },
@@ -39,16 +44,28 @@ function Hero() {
         <div className="portrait">
           <div className="portrait-ring" />
           <div className="portrait-core">
-            <img
-              className="portrait-image"
-              src={portraitImage}
-              alt="Portrait of Mohamed Khalel"
-              width="800"
-              height="1000"
-              loading="eager"
-              fetchpriority="high"
-              decoding="async"
-            />
+            <picture>
+              <source
+                type="image/avif"
+                srcSet={`${portrait480Avif} 480w, ${portrait768Avif} 768w, ${portrait1024Avif} 1024w`}
+                sizes="(max-width: 720px) 70vw, 320px"
+              />
+              <source
+                type="image/webp"
+                srcSet={`${portrait480} 480w, ${portrait768} 768w, ${portrait1024} 1024w`}
+                sizes="(max-width: 720px) 70vw, 320px"
+              />
+              <img
+                className="portrait-image"
+                src={portrait768}
+                alt="Portrait of Mohamed Khalel"
+                width="1024"
+                height="1536"
+                loading="eager"
+                fetchpriority="high"
+                decoding="async"
+              />
+            </picture>
           </div>
         </div>
         <div className="hero-card">

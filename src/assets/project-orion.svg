@@ -1,0 +1,17 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="orion" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7cc7ff" />
+      <stop offset="1" stop-color="#5d6bff" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="32" fill="#151925" />
+  <rect x="60" y="60" width="680" height="60" rx="14" fill="#1f2535" />
+  <rect x="60" y="140" width="220" height="300" rx="18" fill="#1f2535" />
+  <rect x="300" y="140" width="440" height="140" rx="18" fill="#1f2535" />
+  <rect x="300" y="300" width="440" height="140" rx="18" fill="#1f2535" />
+  <circle cx="190" cy="240" r="60" fill="url(#orion)" opacity="0.85" />
+  <path d="M340 220h140l40-40 40 90 50-60 70 30" fill="none" stroke="url(#orion)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="340" y="340" width="260" height="20" rx="10" fill="#2b3348" />
+  <rect x="340" y="370" width="180" height="16" rx="8" fill="#2b3348" />
+</svg>

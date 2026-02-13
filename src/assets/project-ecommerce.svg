@@ -1,0 +1,20 @@
+<svg width="960" height="640" viewBox="0 0 960 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#202a3d" />
+      <stop offset="100%" stop-color="#0c111a" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9bd7ff" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#ffd29e" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" rx="48" fill="url(#bg)" />
+  <rect x="130" y="150" width="700" height="360" rx="36" fill="url(#panel)" />
+  <rect x="190" y="210" width="200" height="120" rx="20" fill="#1b2b41" stroke="#ffb454" stroke-opacity="0.5" stroke-width="4" />
+  <rect x="420" y="210" width="250" height="60" rx="18" fill="#7ee3c7" fill-opacity="0.7" />
+  <rect x="420" y="290" width="250" height="40" rx="14" fill="#9bd7ff" fill-opacity="0.65" />
+  <rect x="190" y="360" width="480" height="110" rx="22" fill="#1b2b41" stroke="#8fb9ff" stroke-opacity="0.35" stroke-width="4" />
+  <circle cx="720" cy="380" r="52" fill="#ff8a4c" fill-opacity="0.8" />
+  <path d="M700 380H740" stroke="#1b2b41" stroke-width="10" stroke-linecap="round" />
+</svg>

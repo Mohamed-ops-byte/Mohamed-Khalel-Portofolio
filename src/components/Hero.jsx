@@ -1,4 +1,4 @@
-import portraitImage from '../assets/1.png'
+import portraitImage from '../assets/1.webp'
 
 const heroStats = [
   { label: 'Years Experience', value: '6+' },

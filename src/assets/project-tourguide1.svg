@@ -1,0 +1,19 @@
+<svg width="960" height="640" viewBox="0 0 960 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f2b3d" />
+      <stop offset="100%" stop-color="#0c121c" />
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7ee3c7" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#9bd7ff" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" rx="48" fill="url(#bg)" />
+  <circle cx="210" cy="150" r="80" fill="#ffb454" fill-opacity="0.5" />
+  <path d="M160 520C280 430 420 480 520 420C640 350 740 380 820 320" stroke="url(#river)" stroke-width="16" stroke-linecap="round" />
+  <path d="M200 520C300 460 420 510 540 450C680 380 770 420 840 360" stroke="#f9f4ea" stroke-opacity="0.25" stroke-width="10" stroke-linecap="round" />
+  <rect x="260" y="260" width="130" height="220" rx="18" fill="#ff8a4c" fill-opacity="0.7" />
+  <rect x="420" y="230" width="150" height="250" rx="18" fill="#ffd29e" fill-opacity="0.7" />
+  <rect x="600" y="260" width="110" height="220" rx="18" fill="#7ee3c7" fill-opacity="0.7" />
+</svg>

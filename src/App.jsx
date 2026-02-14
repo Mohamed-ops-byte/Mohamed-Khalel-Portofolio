@@ -1,10 +1,19 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Hero from './components/Hero.jsx'
+import projectTourguide from './assets/project-tourguide.webp'
 const imageBase = 'https://images.unsplash.com'
 const imageParams = 'auto=format&fit=crop&w=900&q=70'
 
 const projects = [
+    {
+    title: 'tourguide website',
+    description:
+      'واجهة سياحية ملهمة تعرض البرامج والجولات مع تجربة مرئية مريحة للمسافرين.',
+    stack: ['React', 'CMS', 'SEO', 'UX'],
+    image: projectTourguide,
+    link: 'https://tourguidedimo.vercel.app/',
+  },
   {
     title: 'نظام إدارة مكتبة',
     description:
@@ -45,14 +54,7 @@ const projects = [
     image: `${imageBase}/photo-1504384308090-c894fdcc538d?${imageParams}`,
     link: '#',
   },
-  {
-    title: 'tourguide website',
-    description:
-      'واجهة سياحية ملهمة تعرض البرامج والجولات مع تجربة مرئية مريحة للمسافرين.',
-    stack: ['React', 'CMS', 'SEO', 'UX'],
-    image: `${imageBase}/photo-1469474968028-56623f02e42e?${imageParams}`,
-    link: '#',
-  },
+
 ]
 
 function App() {

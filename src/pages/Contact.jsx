@@ -25,15 +25,15 @@ export default function Contact() {
             <form className="space-y-5">
               <div>
                 <label className="block text-sm font-semibold mb-2">Full Name *</label>
-                <input type="text" placeholder="John Doe" className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-primary-500" />
+                <input type="text" placeholder="Mohamed Khalel" className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-primary-500" />
               </div>
               <div>
                 <label className="block text-sm font-semibold mb-2">Email *</label>
-                <input type="email" placeholder="john@example.com" className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-primary-500" />
+                <input type="email" placeholder="mohamed@example.com" className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-primary-500" />
               </div>
               <div>
                 <label className="block text-sm font-semibold mb-2">Phone</label>
-                <input type="tel" placeholder="+1 (555) 123-4567" className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-primary-500" />
+                <input type="tel" placeholder="+1 (000) 96-5504" className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-primary-500" />
               </div>
               <div>
                 <label className="block text-sm font-semibold mb-2">Tour Type *</label>
@@ -68,7 +68,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-bold">Phone</p>
-                    <p className="text-slate-600">+1 (555) 123-4567</p>
+                    <p className="text-slate-600">+1 (000) 96-5504</p>
                   </div>
                 </div>
 

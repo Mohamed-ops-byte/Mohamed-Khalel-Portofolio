@@ -118,10 +118,22 @@ export default function Contact() {
                   <span key={item} className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center text-primary-600">{item}</span>
                 ))}
               </div>
-              <h3 className="text-xl font-bold mb-3">Map Preview</h3>
-              <div className="rounded-xl overflow-hidden shadow-lg bg-slate-200 h-64">
-                <img src={mapImage} alt="Map preview" className="w-full h-full object-cover" />
+              <h3 className="text-xl font-bold mb-3">موقعنا - Mohamed Khalel</h3>
+              <div className="rounded-xl overflow-hidden shadow-lg bg-slate-200 h-64 cursor-pointer hover:opacity-90 transition-opacity" onClick={() => window.open('https://www.google.com/maps/place/Karnak+Temple/@25.738957,32.649076,15z', '_blank')}>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3439.7589662295823!2d32.649076!3d25.738957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x144582f0b6b6b6b7%3A0x3f3f3f3f3f3f3f3f!2sKarnak%20Temple!5e0!3m2!1sen!2seg!4v1234567890"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, borderRadius: '12px', pointerEvents: 'none' }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Karnak Temple Map"
+                />
               </div>
+              <button onClick={() => window.open('https://www.google.com/maps/place/Karnak+Temple/@25.738957,32.649076,15z', '_blank')} className="mt-3 w-full btn-primary text-center">
+                عرض الخريطة الكاملة
+              </button>
             </div>
           </div>
         </div>

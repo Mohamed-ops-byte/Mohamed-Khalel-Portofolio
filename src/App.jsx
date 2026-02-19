@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Hero from './components/Hero.jsx'
 import projectTourguide from './assets/project-tourguide.webp'
+import projectHostingHouses from './assets/hosting houses.PNG'
+
+
 
 const imageBase = 'https://images.unsplash.com'
 const imageParams = 'auto=format&fit=crop&w=900&q=70'
@@ -16,12 +19,12 @@ const projects = [
     link: 'https://tourguidedimo.vercel.app/',
   },
   {
-    title: 'نظام إدارة مكتبة',
+    title: 'نظام تأجير عقارات',
     description:
-      'تنظيم الفهرسة والإعارات والمتابعة الذكية للمقتنيات مع لوحة تحكم سهلة للموظفين.',
+      'منصة تأجير عقارات مع قوائم تفاعلية، إدارة الحجوزات، وتجربة مستخدم سلسة.',
     stack: ['React', 'Laravel', 'REST', 'Dashboards'],
-    image: `${imageBase}/photo-1507842217343-583bb7270b66?${imageParams}`,
-    link: '#',
+    image: projectHostingHouses,
+    link: 'https://hosting-houses.vercel.app/',
   },
   {
     title: 'نظام حجز عقارات',

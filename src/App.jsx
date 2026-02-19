@@ -21,7 +21,7 @@ const projects = [
   {
     title: 'نظام تأجير عقارات',
     description:
-      'منصة تأجير عقارات مع قوائم تفاعلية، إدارة الحجوزات، وتجربة مستخدم سلسة.',
+      'منصة تأجير عقارات مع قوائم تفاعلية، إدارة الحجوزات، وتجربة مستخدم سلسة وعصريه.',
     stack: ['React', 'Laravel', 'REST', 'Dashboards'],
     image: projectHostingHouses,
     link: 'https://hosting-houses.vercel.app/',

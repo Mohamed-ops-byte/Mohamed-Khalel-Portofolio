@@ -3,6 +3,7 @@ import './App.css'
 import Hero from './components/Hero.jsx'
 import projectTourguide from './assets/project-tourguide.webp'
 import projectHostingHouses from './assets/hosting houses.PNG'
+import projectLuxorHouse from './assets/luxor house.PNG'
 
 
 
@@ -27,12 +28,12 @@ const projects = [
     link: 'https://hosting-houses.vercel.app/',
   },
   {
-    title: 'نظام حجز عقارات',
+    title: 'Real Estate Booking Platform',
     description:
-      'حجوزات العقارات مع خرائط تفاعلية، تقويمات توفر، وتجربة مناسبة لعملاء .',
+      'منصة حجز عقارات متعددة الخدمات مع خرائط تفاعلية، تقويمات توفر، وتجربة مناسبة لعملاء .',
     stack: ['React', 'Maps', 'Calendar', 'Payments'],
-    image: `${imageBase}/photo-1560518883-ce09059eeffa?${imageParams}`,
-    link: '#',
+    image: projectLuxorHouse,
+    link: 'https://luxor-house.vercel.app/',
   },
   {
     title: 'نظام إدارة عيادة',

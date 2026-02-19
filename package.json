@@ -1,25 +1,23 @@
 {
-<<<<<<< HEAD
   "name": "my-portofolio",
-  "private": true,
   "version": "0.0.0",
-=======
-  "name": "frontend-design-only-react",
-  "version": "0.0.1",
   "private": true,
->>>>>>> f98006b80c941af2fce9566e7df98d59994ce84e
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-<<<<<<< HEAD
     "lint": "eslint .",
     "preview": "vite preview",
     "images:hero": "node scripts/resize-hero.mjs"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "axios": "^1.13.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.22.3",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
@@ -32,21 +30,5 @@
     "globals": "^16.5.0",
     "sharp": "^0.34.5",
     "vite": "^7.3.1"
-=======
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "axios": "^1.13.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-redux": "^9.2.0",
-    "react-router-dom": "^6.22.3",
-    "redux": "^5.0.1",
-    "redux-thunk": "^3.1.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^5.0.0"
->>>>>>> f98006b80c941af2fce9566e7df98d59994ce84e
   }
 }

@@ -137,7 +137,12 @@ function App() {
                     decoding="async"
                   />
                   <div className="project-overlay">
-                    <a className="project-cta" href={project.link}>
+                    <a 
+                      className="project-cta" 
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       View project
                     </a>
                   </div>
@@ -145,12 +150,22 @@ function App() {
                 <div className="project-header">
                   <h3>{project.title}</h3>
                   <div className="project-links">
-                    <a href="#" aria-label="Open live demo">
+                    <a 
+                      href={project.link} 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Open live demo"
+                    >
                       <span className="icon" aria-hidden="true">
                         ↗
                       </span>
                     </a>
-                    <a href="#" aria-label="View GitHub repository">
+                    <a 
+                      href={project.github || '#'} 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="View GitHub repository"
+                    >
                       <span className="icon" aria-hidden="true">
                         {'</>'}
                       </span>

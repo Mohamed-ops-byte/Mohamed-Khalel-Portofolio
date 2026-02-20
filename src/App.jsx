@@ -37,7 +37,7 @@ const projects = [
     link: 'https://luxor-house.vercel.app/',
   },
   {
-    title: 'نظام إدارة عيادة',
+    title: 'Graphin Designer',
     description:
       'موقع مصمم و مبدع  للوحات والاعلانات',
     stack: ['React', 'Laravel', 'Auth', 'Reports'],

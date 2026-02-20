@@ -4,6 +4,7 @@ import Hero from './components/Hero.jsx'
 import projectTourguide from './assets/project-tourguide.webp'
 import projectHostingHouses from './assets/hosting houses.PNG'
 import projectLuxorHouse from './assets/luxor house.PNG'
+import projectGraphicDesigner from './assets/Graohic designer.PNG'
 
 
 
@@ -38,10 +39,10 @@ const projects = [
   {
     title: 'نظام إدارة عيادة',
     description:
-      'إدارة المواعيد والملفات الطبية والفوترة في تجربة موحدة للأطباء والاستقبال.',
+      'موقع مصمم و مبدع  للوحات والاعلانات',
     stack: ['React', 'Laravel', 'Auth', 'Reports'],
-    image: `${imageBase}/photo-1504813184591-01572f98c85f?${imageParams}`,
-    link: '#',
+    image: projectGraphicDesigner,
+    link: 'https://graphic-designer-livid.vercel.app/',
   },
   {
     title: 'E-commerce Admin Panel',
